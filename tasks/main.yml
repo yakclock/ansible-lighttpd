@@ -1,2 +1,4 @@
 - name: Install lighttpd
-  dnf: name=lighttpd state=latest
+  dnf: name={{ item }} state=latest
+  with_items:
+  - lighttpd
