@@ -1,0 +1,2 @@
+- name: Install lighttpd
+  dnf: name=lighttpd state=latest
