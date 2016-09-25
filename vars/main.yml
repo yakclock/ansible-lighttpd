@@ -1,2 +1,3 @@
 ---
 lighttpd_server_port: 17080
+selinux_enabled: true

@@ -1,0 +1,2 @@
+- name: selinux
+  src: https://github.com/yakclock/ansible-selinux

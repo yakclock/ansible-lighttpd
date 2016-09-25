@@ -10,6 +10,9 @@ galaxy_info:
     versions:
     - 24
 
+  dependencies:
+  - { role: selinux }
+
   categories:
   - web
 
